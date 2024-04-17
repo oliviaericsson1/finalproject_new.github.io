@@ -1,0 +1,80 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 4px solid darkblue;
+    font-family: Georgia, serif;
+    font-size: 15px;
+  }
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: black;
+    text-align: center;
+    font-family: Georgia, serif;
+  }
+
+h4 {
+    margin: 0;
+    padding: 20px 0;
+    color: black;
+    text-align: center;
+    font-family: Georgia, serif;
+  }
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: Georgia, serif;
+}
+
+.tg td {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    font-family: Georgia, serif;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg th {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    font-family: Georgia, serif;
+    font-size: 12px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg .tg-0lax {
+    text-align: left;
+    vertical-align: top;
+}
+
+.center {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    align-items: center;
+    display: flex;/* Align items vertically in center */
+}
+
+.image {
+    flex: 0 0 65%; /* Don't allow the image to grow or shrink */
+    margin-right: 20px; /* Add some space between image and text */
+}
+
+.text {
+    flex: 1; 
+    font-family: Georgia, serif; /* Allow text to grow to fill remaining space */
+}
+
